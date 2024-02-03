@@ -13,7 +13,7 @@ class Post(models.Model):
 
 class Comment(models.Model):
     content = models.TextField(max_length=1000)
-    author = models.ForeignKey(User , on_delete=models.models.CASCADE)
+    author = models.ForeignKey(User , on_delete=models.CASCADE)
     post = models.ForeignKey(Post , on_delete=models.Case)
     create_at = models.DateTimeField(auto_now_add=True)
 
