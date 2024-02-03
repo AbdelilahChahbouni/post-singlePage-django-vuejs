@@ -5,7 +5,7 @@ from rest_framework import serializers
 class PostListSerializer(serializers.ModelSerializer):
     class Meta:
         model = Post
-        fileds = '__all__'
+        fields = '__all__'
 
 
 class CommentListSerializer(serializers.ModelSerializer):
