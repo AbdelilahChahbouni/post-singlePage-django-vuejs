@@ -11,33 +11,7 @@ This is a single page application (SPA) built with Django and Vue.js. It allows 
 
 ## Demo
 
-Provide a link to a live demo of your application if available.
-
-## Installation
-
-To run the application locally, follow these steps:
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/your-repository.git
-Certainly! Below is the updated README.md file with a section on Dockerizing the application:
-
-markdown
-
-# Django-Vue.js Single Page Application
-
-This is a single page application (SPA) built with Django and Vue.js. It allows users to view and interact with posts, including liking and commenting on them.
-
-## Features
-
-- View posts: Users can view a list of posts with details such as title, content, likes, and comments.
-- Like posts: Users can like posts to show their appreciation.
-- Comment on posts: Users can leave comments on posts to share their thoughts.
-- Filter comments: Users can filter comments by different criteria such as date, user, or popularity.
-
-## Demo
-
-Provide a link to a live demo of your application if available.
+Demo for now is not live
 
 ## Installation
 
