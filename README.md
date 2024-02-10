@@ -22,36 +22,54 @@ To run the application locally, follow these steps:
    git clone git@github.com:AbdelilahChahbouni/post-singlePage-django-vuejs.git
 
 2. Navigate into the project directory:
+
    cd your-repository
 
 3. Set up the backend:
 
     1. Install Django and other dependencies:
-    2. pip install -r requirements.txt
-    3. Apply migrations:
-	-python manage.py migrate
-    4. Run the Django development server:
-	-python manage.py runserver
+
+    	 pip install -r requirements.txt
+
+    2. Apply migrations:
+
+	 python manage.py migrate
+
+    3. Run the Django development server:
+
+	python manage.py runserver
 
 4. Set up the frontend:
     1. Navigate to the frontend directory:
-	-cd frontend
+
+	cd frontend
+
     2. Install npm dependencies:
-	-npm install
+
+	npm install
 
     3. Start the Vue.js development server:
-	-npm run serve
+
+	npm run serve
 
     4. Open your browser and visit 
-	-open http://localhost:8080 to view the application.
+
+	open http://localhost:8080 to view the application.
 
 5. you can run the aplication in docker using docker-compose
+
      1. Clone the repository:
-   	-git clone git@github.com:AbdelilahChahbouni/post-singlePage-django-vuejs.git
+
+   	git clone git@github.com:AbdelilahChahbouni/post-singlePage-django-vuejs.git
+
      2. Navigate into the project directory:
-	-cd your-repository
+
+	cd your-repository
+
      3. Run Docker Compose to build and start the containers:
-        -docker-compose up -d --build
+
+        docker-compose up -d --build
+
      4. Open your browser and visit http://localhost:8080 to view the application.
 
 
