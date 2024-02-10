@@ -118,7 +118,8 @@ DATABASES = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8080",  # Replace with the address of your Vue.js app
+     
+    'http://172.20.0.2:8080', # Replace with the address of your Vue.js app
 ]
 
 

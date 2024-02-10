@@ -1,0 +1,15 @@
+version : "3"
+services:
+  django:
+    build: ./backend
+    command: python ./backend/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
