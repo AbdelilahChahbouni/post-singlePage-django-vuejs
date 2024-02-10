@@ -1,5 +1,7 @@
 # Django-Vue.js Single Page Application
 
+![App Preview](./image.png)
+
 This is a single page application (SPA) built with Django and Vue.js. It allows users to view and interact with posts, including liking and commenting on them.
 
 ## Features
